@@ -1,0 +1,13 @@
+Make sure you edit the host files mentioned below
+linux or macOs : /etc/hosts
+Windows : C:\Windows\System32\drivers\etc
+
+Append this 4 lines at the end of file.
+#Sublime Text 3
+127.0.0.1 license.sublimehq.com
+127.0.0.1 45.55.255.55
+127.0.0.1 45.55.41.223
+
+Note: If you don't have permissions to edit above file
+copy the host file to your home directory
+append those lines and after saving replace it with original one using admin privileges
